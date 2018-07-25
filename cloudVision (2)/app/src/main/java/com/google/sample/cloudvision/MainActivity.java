@@ -50,6 +50,8 @@ import com.google.api.services.vision.v1.model.EntityAnnotation;
 import com.google.api.services.vision.v1.model.Feature;
 import com.google.api.services.vision.v1.model.Image;
 
+import org.w3c.dom.Text;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.util.ArrayList;
@@ -63,7 +65,7 @@ import java.util.List;
 
 public class MainActivity extends Activity {
 
-    private ReadHTML myReader;
+    private ScavengeList list = new ScavengeList();
 
     private static final String CLOUD_VISION_API_KEY = "AIzaSyBJsxdaRGvfk-vMEULOv5h68N3ILu7PhgA";
     public static final String FILE_NAME = "temp.jpg";
@@ -87,40 +89,13 @@ public class MainActivity extends Activity {
 
     @Override
     public void onCreate(Bundle saveInstanceState) {
+
         super.onCreate(saveInstanceState);
-        ScrollView sv = new ScrollView(this);
-        LinearLayout ll = new LinearLayout(this);
-        ll.setOrientation(LinearLayout.VERTICAL);
-        sv.addView(ll);
+        setContentView(R.layout.snap_page);
 
-        TextView tv = new TextView(this);
-        tv.setText("Scavenger List!");
+        Button snapBtn = (Button) findViewById(R.id.snap_btn);
 
-
-        ll.addView(tv);
-
-
-        myReader = new ReadHTML();
-        myReader.createList();
-
-
-        Iterator<ScavengeObject> iterate = myReader.getScavengeList().iterator();
-
-        int step = 1;
-
-
-        while (iterate.hasNext()) {
-            CheckBox cb = new CheckBox(this);
-            cb.setText(iterate.next().getName());
-            cb.setTag(iterate.next().getName());
-            ll.addView(cb);
-
-        }
-
-        Button btn = new Button(this);
-        btn.setText("Snap it");
-        ll.addView(btn);
-        btn.setOnClickListener(new View.OnClickListener() {
+        snapBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
@@ -142,9 +117,8 @@ public class MainActivity extends Activity {
             }
         });
 
-        Button mapBtn = new Button(this);
-        mapBtn.setText("Check Map");
-        ll.addView(mapBtn);
+        Button mapBtn = (Button) findViewById(R.id.map_btn);
+
         //when button is clicked, direct to MapsActivity
         mapBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -155,13 +129,10 @@ public class MainActivity extends Activity {
 
             }
         });
-        mImageDetails = new TextView(this);
-        mMainImage = new ImageView(this);
-        result = new TextView(this);
-        ll.addView(mImageDetails);
-        ll.addView(mMainImage);
-        ll.addView(result);
-        this.setContentView(sv);
+        mImageDetails = (TextView) findViewById(R.id.image_details);
+        mMainImage = (ImageView) findViewById(R.id.image_view);
+        result = (TextView) findViewById(R.id.result);
+
 
     }
 
@@ -333,31 +304,83 @@ public class MainActivity extends Activity {
 //            EntityAnnotation label = labels.get(0);
 //            message += String.format("%s", label.getDescription());
 //            message += "\n";
+            Boolean isMatch = false;
             for (EntityAnnotation label : labels) {
-                message += String.format("%.3f: %s", label.getScore(), label.getDescription());
-                message += "\n";
+            //    message += String.format("%.3f: %s", label.getScore(), label.getDescription());
+           //     message += "\n";
 
                 String object = label.getDescription();
 
-                if (myReader.search(object)) {
-                    message += "\nCongratulations! You found it!";
+                if (list.search(object)) {
+
+                    isMatch = true;
+                    list.getNameList().remove(object);
+                    ScavengeObject found = new ScavengeObject(object);
+                    found.setLocation(MapsActivity.getLocationAddress());
+                    list.insert(found);
+                    if(list.getNameList().isEmpty()){
+                        message = "Yikes! Your hunt is complete!";
+                        return message;
+                    }
+
+                    break;
+
+                }
+
+            }
+            if(isMatch){
+                message += "\nCongratulations! You found it!";
 
 
-                    //and also print out location
-                    message += "\n\n";
-                    message += String.format("%s", MapsActivity.getLocationAddress());
+                //and also print out location
+                message += "\n\n";
+                message += String.format("%s", MapsActivity.getLocationAddress());
 
-                    View checkView = new View(this);
-                    CheckBox searchCheck = (CheckBox)checkView.findViewWithTag(object);
+                message+= "\n\n";
 
-                    searchCheck.setChecked(true);
+                message+= "Remaining Items to Find";
 
-                    //and I guess check for the rest of the objects
+                Iterator remainingList = list.getNameList().iterator();
+                while(remainingList.hasNext())
+                {
+                    message += "\n";
+                    message += remainingList.next();
+                }
 
-//                 result.setText("Congratulation! you found it!");
-                } else {
-                    message += "Oh snap >.< Try again.";
-//                 result.setText("Oh snap >.< Try again");
+                message += "\n\n";
+                message += "Found Objects";
+
+                Iterator<ScavengeObject> foundList = list.getScavengeList().iterator();
+                while(foundList.hasNext())
+                {
+                    message += "\n";
+                    ScavengeObject found = foundList.next();
+                    message += found.getName() + " at " + found.getLocation();
+                }
+
+            }
+            else{
+                message += "Aw snap >.< Try again.";
+                message+= "\n\n";
+
+                message+= "Remaining Items to Find";
+
+                Iterator remainingList = list.getNameList().iterator();
+                while(remainingList.hasNext())
+                {
+                    message += "\n";
+                    message += remainingList.next();
+                }
+
+                message += "\n\n";
+                message += "Found Objects";
+
+                Iterator<ScavengeObject> foundList = list.getScavengeList().iterator();
+                while(foundList.hasNext())
+                {
+                    message += "\n";
+                    ScavengeObject found = foundList.next();
+                    message += found.getName() + " at " + found.getLocation();
                 }
             }
         }

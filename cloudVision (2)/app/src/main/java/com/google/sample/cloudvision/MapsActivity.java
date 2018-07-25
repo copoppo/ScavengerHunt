@@ -355,7 +355,7 @@ public class MapsActivity extends FragmentActivity implements
     public static String getLocationAddress()
     {
         //make sure the app is connected
-        mGoogleApiClient.connect();
+       // mGoogleApiClient.connect();
         return entirely;
 
     }

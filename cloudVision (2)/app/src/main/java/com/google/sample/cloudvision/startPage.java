@@ -21,8 +21,7 @@ public class startPage extends AppCompatActivity
         playBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent playList = new Intent(startPage.this, XMLWriter.class);
-                Intent playList = new Intent(startPage.this, MainActivity.class);
+                Intent playList = new Intent(startPage.this, list.class);
                 startPage.this.startActivity(playList);
             }
         });
