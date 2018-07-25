@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_21fa43716baaeff85345600e57e570bb42dad858\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-7.8.0_4f9d23cdbba9200c19f14b945aa705d575892674.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.apis\google-api-services-vision\v1-rev2-1.21.0\4db84d916e8ec80d9aa11c5f89a6cb6621ac1c85\google-api-services-vision-v1-rev2-1.21.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4db84d916e8ec80d9aa11c5f89a6cb6621ac1c85">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-api-services-vision-v1-rev2-1.21.0_b9de0a7381fe655c0951075683bba438266c45a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-7.8.0_b54d26507e61ec8a8031c2352a00b4b29075f425\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-android\1.20.0\5673179575c32b69a474334255c3044adf18d40\google-api-client-android-1.20.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="05673179575c32b69a474334255c3044adf18d40">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-api-client-android-1.20.0_c6bb3dcc01aae3e15acd0ec5c22190173383d427\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.21.0\8ce17bdd15fff0fd8cf359757f29e778fc7191ad\google-http-client-jackson2-1.21.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8ce17bdd15fff0fd8cf359757f29e778fc7191ad">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\google-http-client-jackson2-1.21.0_b4b73f6e83aa87ce927e5282868ea71ef3a33863.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_f8095f550dda6b5f56bc4e48d9a3a752842b1129\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_c2319c0492c57d72a65c8aa42451cb13c74400e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-gson\1.20.0\9204765f39000f6109c927ac66c7963bf9c7df19\google-http-client-gson-1.20.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9204765f39000f6109c927ac66c7963bf9c7df19">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-gson-1.20.0_5538dd27a8b1825eab56b4df6eae87d9846c1fcf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_e3d08628d2612017bab0ce7f192cb8534aac969c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_37ba9036c962304073bd67bfe09cb130f12bf770.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-android\1.20.0\313dc99a7963523871495897ca11aa8472b3c6fd\google-http-client-android-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="313dc99a7963523871495897ca11aa8472b3c6fd">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\google-http-client-android-1.20.0_4767abe9915d1cd21b1bff5df1a02fd7551083ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_23d47a7b7b6820a1c79322943dd2a3c6afa99b34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_a26588fdae0ddd0a5c39a2f4cd8d64d82f5f6ccd.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f21aeda4df42b14e64c8823388a579510b7aa26a">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4e0335a984af0c5794eaf7ea1ace4306c0007bc5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\17.0\463f8378feba44df7ba7cd9272d01837dad62b36\guava-jdk5-17.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="463f8378feba44df7ba7cd9272d01837dad62b36">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\guava-jdk5-17.0_b2f6886fd8511887494a90adf1ba23d5993f8ee7\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-7.8.0_b46706eaafe6f49cd89b937ee5b98bf7da0b1afd.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.21.0\42631630fe1276d4d6d6397bb07d53a4e4fec278\google-http-client-1.21.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="42631630fe1276d4d6d6397bb07d53a4e4fec278">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-1.21.0_efe9f13586654a0ab7ea553a3b847807317a3d25\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\jsr305-1.3.9_f703983ace6fe9c47b80c9efdc78a418029bb16f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.1\2e66da15851f9f5b5079228f856c2f090ba98c38\gson-2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\gson-2.1_4e39df15722bb0b6072a3708eac1ee2a53a011d3.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.21.0\16a6b3c680f3bf7b81bb42790ff5c1b72c5bbedc\google-api-client-1.21.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="16a6b3c680f3bf7b81bb42790ff5c1b72c5bbedc">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-api-client-1.21.0_72cabecb59a7928048b77613118cf5cf9969282c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.1.3_b788ec1cc8843b3b42a64a029acfd0a383fb9300\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_69f18e6961c619ed3cc9edd5fa412d4c0e7b7286.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.21.0\61ec42bbfc51aafde5eb8b4923c602c5b5965bc2\google-oauth-client-1.21.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="61ec42bbfc51aafde5eb8b4923c602c5b5965bc2">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\google-oauth-client-1.21.0_5dd4baf386199e5d39b8f56fd0834d1bdefd702a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_21fa43716baaeff85345600e57e570bb42dad858.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-android\1.20.0\313dc99a7963523871495897ca11aa8472b3c6fd\google-http-client-android-1.20.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="313dc99a7963523871495897ca11aa8472b3c6fd">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-android-1.20.0_4767abe9915d1cd21b1bff5df1a02fd7551083ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.21.0\8ce17bdd15fff0fd8cf359757f29e778fc7191ad\google-http-client-jackson2-1.21.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8ce17bdd15fff0fd8cf359757f29e778fc7191ad">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-http-client-jackson2-1.21.0_b4b73f6e83aa87ce927e5282868ea71ef3a33863\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.apis\google-api-services-vision\v1-rev2-1.21.0\4db84d916e8ec80d9aa11c5f89a6cb6621ac1c85\google-api-services-vision-v1-rev2-1.21.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4db84d916e8ec80d9aa11c5f89a6cb6621ac1c85">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\google-api-services-vision-v1-rev2-1.21.0_b9de0a7381fe655c0951075683bba438266c45a8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-7.8.0_4f9d23cdbba9200c19f14b945aa705d575892674\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client-android\1.20.0\5673179575c32b69a474334255c3044adf18d40\google-api-client-android-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="05673179575c32b69a474334255c3044adf18d40">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\google-api-client-android-1.20.0_c6bb3dcc01aae3e15acd0ec5c22190173383d427.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-7.8.0_b54d26507e61ec8a8031c2352a00b4b29075f425.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_f8095f550dda6b5f56bc4e48d9a3a752842b1129.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\jsr305-1.3.9_f703983ace6fe9c47b80c9efdc78a418029bb16f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\jsoup-1.10.1\jsoup-1.10.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6b471012876a440ae746860d80738be2dd104655">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\jsoup-1.10.1_261a8a9f4b129516d900e3115121f6b3354a2530.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_e3d08628d2612017bab0ce7f192cb8534aac969c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_c2319c0492c57d72a65c8aa42451cb13c74400e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-gson\1.20.0\9204765f39000f6109c927ac66c7963bf9c7df19\google-http-client-gson-1.20.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9204765f39000f6109c927ac66c7963bf9c7df19">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\google-http-client-gson-1.20.0_5538dd27a8b1825eab56b4df6eae87d9846c1fcf.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_37ba9036c962304073bd67bfe09cb130f12bf770\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="144e9b2ed326ff35afed5ed40cfa29c2b25e8217">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4f3f827a5425357bcc532e79f1f78422b62024de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_a26588fdae0ddd0a5c39a2f4cd8d64d82f5f6ccd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_23d47a7b7b6820a1c79322943dd2a3c6afa99b34\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.api-client\google-api-client\1.21.0\16a6b3c680f3bf7b81bb42790ff5c1b72c5bbedc\google-api-client-1.21.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="16a6b3c680f3bf7b81bb42790ff5c1b72c5bbedc">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\google-api-client-1.21.0_72cabecb59a7928048b77613118cf5cf9969282c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.guava\guava-jdk5\17.0\463f8378feba44df7ba7cd9272d01837dad62b36\guava-jdk5-17.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="463f8378feba44df7ba7cd9272d01837dad62b36">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\guava-jdk5-17.0_b2f6886fd8511887494a90adf1ba23d5993f8ee7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-7.8.0_b46706eaafe6f49cd89b937ee5b98bf7da0b1afd\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.21.0\42631630fe1276d4d6d6397bb07d53a4e4fec278\google-http-client-1.21.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="42631630fe1276d4d6d6397bb07d53a4e4fec278">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\google-http-client-1.21.0_efe9f13586654a0ab7ea553a3b847807317a3d25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\pre-dexed\debug\jackson-core-2.1.3_b788ec1cc8843b3b42a64a029acfd0a383fb9300.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_69f18e6961c619ed3cc9edd5fa412d4c0e7b7286\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.1\2e66da15851f9f5b5079228f856c2f090ba98c38\gson-2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2e66da15851f9f5b5079228f856c2f090ba98c38">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.1_4e39df15722bb0b6072a3708eac1ee2a53a011d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\carol\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.21.0\61ec42bbfc51aafde5eb8b4923c602c5b5965bc2\google-oauth-client-1.21.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="61ec42bbfc51aafde5eb8b4923c602c5b5965bc2">
+        <dex dex="C:\Users\carol\Downloads\cloudVision (2)\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-oauth-client-1.21.0_5dd4baf386199e5d39b8f56fd0834d1bdefd702a\classes.dex" />
+    </item>
+
+</items>

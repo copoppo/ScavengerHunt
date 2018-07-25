@@ -1,0 +1,7 @@
+#Mon Dec 05 21:37:21 PST 2016
+base.0=C\:\\Users\\carol\\Downloads\\cloudVision (2)\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_4e0335a984af0c5794eaf7ea1ace4306c0007bc5
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\carol\\Downloads\\cloudVision (2)\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4f3f827a5425357bcc532e79f1f78422b62024de\\classes.dex
+base.1=C\:\\Users\\carol\\Downloads\\cloudVision (2)\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_4f3f827a5425357bcc532e79f1f78422b62024de
+file.0=C\:\\Users\\carol\\Downloads\\cloudVision (2)\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_4e0335a984af0c5794eaf7ea1ace4306c0007bc5\\classes.dex
